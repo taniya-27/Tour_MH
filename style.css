@@ -1,0 +1,95 @@
+html{
+    margin-top: -2.5%;
+    padding: 0%;
+}
+body{
+    background-color: #f4e2ca;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: 'Indie Flower', cursive;
+}
+ul{
+    display:flex;
+ 
+}
+img.image{
+    height: 76px;  
+    padding-top: 10px;  
+}
+sec{
+    margin-top: 25px;
+    display : flex;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    color: #c5e321;
+   padding-left: 10px;
+}
+li{
+    padding: 20px 20px;
+    margin: 10px 15px;
+    font-size: 20px;
+}
+nav{    
+    padding: 0%;
+    margin:0%;
+    background-color: rgb(60 60 71);
+    box-shadow: blue;
+}
+nav.navigation{
+    display:fixed;
+    width:100%;
+    top:0;
+}
+a.nav{
+    text-decoration: none;
+    color: #ccb557;
+    text-shadow: 3px 3px 2px #aa3333;
+}
+container{
+    background-image:url("img.jpg");
+    width:100%;
+    height: 700px;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+}
+h3{
+    padding-left: 79px;
+    padding-top: 146px;
+    font-size: 50px;
+    color: crimson;
+}
+p.info{
+    width: 569px;
+    height: 411px;
+    float: right;
+    font-size: 28px;
+    color: #e7e120;
+}
+a.mumbai , a.pune , a.shirdi , a.nagpur , a.matheran, a.mahabaleshwar, a.chikhaldara, a.aurangabad{
+    box-shadow: 2px 2px 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 252px;
+    width: 317px;
+    margin:20px 20px 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #201402;
+    text-shadow: 2px 2px 2px #1dea60;
+    font-size: 40px;
+    border-radius: 30px;
+}
+.places{
+    display: flex;
+    width:100%;
+    
+}
+a.mumbai:hover , a.pune:hover , a.shirdi:hover , a.nagpur:hover , a.matheran:hover , a.mahabaleshwar:hover, a.chikhaldara:hover , a.aurangabad:hover{
+    filter: blur(1px);
+    box-shadow: 5px 5px black;
+}
+
